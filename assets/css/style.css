@@ -1,0 +1,76 @@
+ nav {
+  display: flex;
+}
+
+#scores {
+  width: 100%;
+}
+
+#time {
+  text-align: right;
+  width: 100%
+}
+
+main {
+  font-size: 21px;
+  text-align:center;
+  display:flex;
+  justify-content: space-between;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+}
+
+main {
+  text-align: center;
+  font-size: 21px;
+}
+
+#questions.text {
+  padding: 21px;
+}
+
+.btn {
+  font-size: 16px;
+  margin:auto;
+  display:flex;
+  justify-content: center;
+  padding: 12px;
+  background-color: purple;
+  color: white;
+  margin-top: 21px;
+}
+
+button:hover,
+li:hover {
+  background-color: pink;
+  color: black;
+}
+
+li {
+  background-color: purple;
+  padding: 12px;
+  color: white;
+  margin: 5px;
+  font-size: 21px;
+}
+
+ul {
+  display: inline;
+}
+
+#createDiv {
+  margin: 10px;
+}
+
+#high-score {
+  display: inline-flex;
+  width: 100%;
+  margin: auto;
+  font-size: 21px;
+  background-color: purple;
+  color: white;
+  justify-content: space-evenly;
+}
